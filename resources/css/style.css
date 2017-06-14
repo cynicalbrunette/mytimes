@@ -1,0 +1,290 @@
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid black;
+  position: fixed;
+  align-items: center;
+  background-color: white;
+  height: 80px;
+  z-index: 5;
+  padding-right: 40px;
+  top: 0;
+}
+
+.logo {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 72%;
+}
+
+.logo img {
+  padding-right: 12px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+.navbar {
+  padding-right: 40px;
+  display: flex;
+  color: black;
+  width: 269.625px;
+  height: 57px;
+  float: right;
+  align-items: space-around;
+}
+
+.navbar span {
+  padding: 20px 10px;
+  display: inline-block;
+}
+
+.navbar a {
+  color: black;
+}
+
+.maincontent {
+  display: flex;
+  padding-top: 116px;
+  padding-bottom: 78px;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  margin-right: 32px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+  margin-right: 32px;
+  flex-direction: column;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  margin-right: 32px;
+  flex-direction: column;
+}
+
+.column {
+  margin-right: 32px;
+}
+
+.mom {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.mom span {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  color: white;
+  height: 300px;
+  font-size: 40px;
+  text-align: left;
+  font-weight: bold;
+  font-family: Georgia;
+}
+
+.mom p {
+  margin: 20px 0px;
+}
+
+.otherstories {
+  display: flex;
+  flex-wrap: wrap;
+  width: 630px;
+  justify-content: space-between;
+}
+
+.leftstories {
+  display:flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.rightstories {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.orca h1 {
+  font-size: 24px;
+  display: block;
+}
+
+.orca p {
+  display: block;
+}
+
+.orca {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 300px;
+}
+
+.earth {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  color: white;
+  height: 300px;
+  width: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.burger {
+  display: flex;
+  height: 250px;
+  width: 300px;
+  flex-direction: column;
+}
+
+.burger h1 {
+  font-size: 24px;
+}
+
+.research {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia;
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.fbi {
+  display: block;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.fbi h1 {
+  font-size: 24px;
+  display: block;
+}
+
+.cats {
+  display: flex;
+  flex-direction: column;
+}
+
+.cats span {
+  flex-direction: column;
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  color: white;
+  font-size:30px;
+  height: 300px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.newsbites {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsbites img {
+  height: 240px;
+  width: auto;
+}
+
+.newslist {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 348px;
+}
+
+.newslist h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.newslist li {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  list-style-type: none;
+  padding: 11px 20px;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  display: block;
+}
+
+.footer {
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  display: block;
+}
+
+.times {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+.information nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.information nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.information nav span a {
+  color: black;
+  font-size: 12px;
+  font-family: Verdana;
+}
+
+.copyright {
+  display: block;
+  font-size: 12px;
+  font-family: Verdana;
+}
